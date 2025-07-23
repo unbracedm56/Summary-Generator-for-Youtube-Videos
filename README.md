@@ -10,13 +10,13 @@ A simple Streamlit app that summarizes the content of any YouTube video using **
 - Crafts structured prompt via `PromptTemplate`
 - Powered by Gemini (via `langchain_google_genai`) to generate concise, human-readable summaries
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - `Streamlit` — frontend interface
 - `LangChain` — orchestration of LLM workflow
 - `GoogleGenerativeAI` — LLM integration (Gemini 2.0 Flash)
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 ├── app.py     # Streamlit UI
 ├── main.py    # LangChain logic: loading, splitting, prompting, summarizing
